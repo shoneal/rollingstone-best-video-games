@@ -1,1 +1,1 @@
-# rollingstone-best-video-games
+https://shoneal.github.io/rollingstone-best-video-games/
