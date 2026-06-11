@@ -41,7 +41,7 @@ const initializeHeaderImages = (data, container, caption) => {
 
   [...randomElements].forEach((key) => {
     const img = Object.assign(document.createElement("img"), {
-      src: getImagePath("header/desktop", key),
+      src: getImagePath(basicLink, "header/desktop", key),
       srcset: `${getImagePath(
         basicLink,
         "header/mobile",
