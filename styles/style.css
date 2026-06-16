@@ -16,7 +16,7 @@
   margin: 1.75rem auto;
 }
 
-.slide-figure-wrapper {
+.video-games .slide-figure-wrapper {
   aspect-ratio: 1022 / 575;
 }
 
@@ -27,7 +27,7 @@
   padding: 16px;
 }
 
-.slide-number {
+.video-games .slide-number {
   margin-right: 1rem;
   border-right: 0.25rem solid var(--border);
   padding-right: 0.875rem;
@@ -44,7 +44,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .slide-title {
+  .video-games .slide-title {
     font-size: 30px;
     line-height: 32px;
   }
@@ -69,7 +69,7 @@
     display: block;
   }
 
-  .slide-number {
+  .video-games .slide-number {
     margin: 0;
     border: none;
     padding: 0 0 0.5rem;
