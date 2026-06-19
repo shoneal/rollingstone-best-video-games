@@ -66,6 +66,7 @@ const renderSlides = (object) => {
     slide.dataset.slideId = data.place;
 
     const { src, srcset } = createResponsiveImage(
+      getImagePath,
       basicLink,
       key,
       "shots",
