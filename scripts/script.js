@@ -110,6 +110,9 @@ document.addEventListener("DOMContentLoaded", () => {
     currentData,
     bodyElements.headerImages,
     bodyElements.headerImagesCaption,
+    true,
+    false,
+    3,
     {
       getAuthor: (_, key) => key,
     },
