@@ -101,6 +101,7 @@ const renderSlides = (object) => {
 bodyElements.navigation.addEventListener("click", handleNavigationClick); // Обработчик кликов по навигации
 document.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add(section); // Название секции классом для body
+  bodyElements.titleCount.textContent = dataLength; // Обновление числа в заголовке
   changingTheme(); // Смена темы
   switchingStickinessHeader(bodyElements.title, bodyElements.header); // Липкий выезжающий header
 
