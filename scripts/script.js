@@ -70,7 +70,7 @@ const renderSlides = (object) => {
       basicLink,
       key,
       "shots",
-      872,
+      800,
       [320, 640, 800, 1024, 1280],
     );
 
